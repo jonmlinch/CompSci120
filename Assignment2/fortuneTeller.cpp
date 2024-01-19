@@ -1,11 +1,17 @@
-// Jonathan Linch
-// Course Section #08
-// 01/17/24
-// Assignment 2
-//changes:
-    // -
-    // -
-    // -
+/* 
+Jonathan Linch
+Course Section #08
+01/17/24
+Assignment 2
+changes:
+    - Created 4 new variables: nameNumber, name, earlyAlphabet, and lateAlphabet
+    - Added a 3rd input prompt which asks for the user's name and sets to name variable
+    - Used a for loop to compare the lowercased first letter of the name variable to find a match in one of the arrays.
+    - Depending on where a match is (or isn't) found, the nameNumber variable is set
+    - nameNumber variable imcorporated into the formula to derive lucky number
+    - Changed the parameters for fortune phrases to higher numbers due to change in lucky number parameter
+    - Added an additional if statement that displays ascii art saying "LUCKY" if the condition is met
+*/
 /* The fortune Teller -
     * a simple program introducing some
     * fundamental programming concepts.
@@ -18,10 +24,10 @@ int main()  // main() starts the program
  	int favorite;  // create a variable to store the favorite number
     int disliked;  // create a variable to store the disliked number
 	int lucky;     // create a variable to store the lucky number
-    int nameNumber;
-    string name;
-    string earlyAlphabet [13] = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"};
-    string lateAlphabet [13] = {"n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
+    int nameNumber; // variable to store a number derived from the name of the user
+    string name; // variable to store a text string for name of user 
+    char earlyAlphabet [13] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'}; // Array of letters used for comparison
+    char lateAlphabet [13] = {'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'}; // Different array of letters for comparison
 
 	// ------------- Get user input -------------------------
     //User prompt and input for favorite num, Int
@@ -36,16 +42,12 @@ int main()  // main() starts the program
     cout << "Enter your name: \n";
     cin >> name;
 
-    // name[0] = tolower(name[0]);
-    char lowerFirstLetter = tolower(name[0]);
-    string lowerFirst;
-    lowerFirst += lowerFirstLetter;
-
+    //Loops through charater arrays to see if a character matches the lower case version of a users name
     for(int i = 0; i < 13; i++){
-        if(earlyAlphabet[i] == lowerFirst){
+        if(earlyAlphabet[i] == tolower(name[0])){
             nameNumber = i;
             break;
-        } else if (lateAlphabet[i] == lowerFirst) {
+        } else if (lateAlphabet[i] == tolower(name[0])) {
             nameNumber = (2*i);
             break;
         } else {
@@ -54,15 +56,8 @@ int main()  // main() starts the program
 
     }
 
-    cout << nameNumber << endl;
-
-    
-
     //A calculation to create a lucky number based on user input
-	lucky = (favorite*disliked) % 10;
-    int newLucky = ((favorite*disliked) % 10)*nameNumber;
-    cout << lucky << endl;
-    cout << newLucky << endl;
+	lucky = ((favorite*disliked) % 10)*nameNumber;
 
     //Outputs lucky number for user to see then goes to new line
 	cout << endl << "Your secret, lucky number is: " << lucky << endl;
@@ -77,10 +72,10 @@ int main()  // main() starts the program
 	if(lucky >= 50 && lucky < 90){ // values 5 to 8 inclusive
 		cout << "Today you should embrace technology." << endl;
 	}
-	if(lucky == 90){ // value exactly 9
+	if(lucky == 90){ // value exactly 90
 		cout << "Today is your lucky day!" << endl;
 	}
-    if(lucky >= 100) {
+    if(lucky >= 100) { // Any number greater than 100 sees an ascii "LUCKY"
         cout<< " __        _    _   ____   __   __  __    __ \n";
         cout<< "|  |      | |  | | / ___\\ |  | / /  \\ \\  / / \n";
         cout<< "|  |      | |  | || |     |  |/ /    \\ \\/ / \n";
