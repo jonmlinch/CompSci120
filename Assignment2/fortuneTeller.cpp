@@ -1,16 +1,14 @@
 /* 
-Jonathan Linch
-Course Section #08
-01/17/24
-Assignment 2
-changes:
-    - Created 4 new variables: nameNumber, name, earlyAlphabet, and lateAlphabet
-    - Added a 3rd input prompt which asks for the user's name and sets to name variable
-    - Used a for loop to compare the lowercased first letter of the name variable to find a match in one of the arrays.
-    - Depending on where a match is (or isn't) found, the nameNumber variable is set
-    - nameNumber variable imcorporated into the formula to derive lucky number
-    - Changed the parameters for fortune phrases to higher numbers due to change in lucky number parameter
-    - Added an additional if statement that displays ascii art saying "LUCKY" if the condition is met
+    Jonathan Linch
+    Course Section #08
+    01/17/24
+    Assignment 2
+    Additional work:
+        - Created 4 new variables: nameNumber, name, earlyAlphabet, and lateAlphabet
+        - Added a for loop to compare the lowercased first letter of the name variable to find a match in one of the arrays.
+        - Depending on where a match is (or isn't) found, the nameNumber variable is set which is then used to calculate the lucky number
+        - Changed the parameters for fortune phrases to higher numbers due to change in lucky number parameter
+        - instead of adding an additional phrase, I added an ascii image
 */
 /* The fortune Teller -
     * a simple program introducing some
@@ -66,16 +64,16 @@ int main()  // main() starts the program
 	if(lucky < 0){  // conditional, values less than 0
 		cout << "Try to be less negative." << endl;
 	}
-	if(lucky >= 0 && lucky < 50){ // values 0 to 4 inclusive
-		cout << "Think bigger!" << endl;
+	if(lucky >= 0 && lucky < 25){ // values 0 to 24 inclusive
+		cout << "Think bigger!" << endl; 
 	}
-	if(lucky >= 50 && lucky < 90){ // values 5 to 8 inclusive
-		cout << "Today you should embrace technology." << endl;
+	if(lucky >= 25 && lucky < 50){ // values 25 to 49 inclusive
+		cout << "Today you should embrace technology." << endl; 
 	}
-	if(lucky == 90){ // value exactly 90
-		cout << "Today is your lucky day!" << endl;
+	if(lucky >= 50 && lucky < 75){ // values 50 to 74 inclusive
+		cout << "Today is your lucky day!" << endl; 
 	}
-    if(lucky >= 100) { // Any number greater than 100 sees an ascii "LUCKY"
+    if(lucky >= 75) { // Any number greater than 100 sees an ascii "LUCKY"
         cout<< " __        _    _   ____   __   __  __    __ \n";
         cout<< "|  |      | |  | | / ___\\ |  | / /  \\ \\  / / \n";
         cout<< "|  |      | |  | || |     |  |/ /    \\ \\/ / \n";

@@ -1,0 +1,70 @@
+Script started on 2024-01-18 18:02:14-08:00
+bash-4.4$ g++ fortuner[KTeller.cpp
+bash-4.4$ ./a.out
+Enter your favorite number (no decimals): 
+13
+Enter a number you don't like (no decimals): 
+3
+Enter your name: 
+Zorro
+
+Your secret, lucky number is: 216
+ __        _    _   ____   __   __  __    __ 
+|  |      | |  | | / ___\ |  | / /  \ \  / / 
+|  |      | |  | || |     |  |/ /    \ \/ / 
+|  |____  | |__| || |____ |     \     |  | 
+|_______|  \_____/ \____/ |__|\__\    |__| 
+Press enter to quit.
+
+bash-4.4$ ./a.out
+Enter your favorite number (no decimals): 
+67
+Enter a number you don't like (no decimals): 
+49
+Enter your name: 
+you lo
+
+Your secret, lucky number is: 66
+Today is your lucky day!
+Press enter to quit.
+
+bash-4.4$ ./a.out
+Enter your favorite number (no decimals): 
+56
+Enter a number you don't like (no decimals): 
+67
+Enter your name: 
+zorro
+
+Your secret, lucky number is: 48
+Today you should embrace technology.
+Press enter to quit.
+
+bash-4.4$ ./a.out
+Enter your favorite number (no decimals): 
+67
+Enter a number you don't like (no decimals): 
+49
+Enter your name: 
+Greg
+
+Your secret, lucky number is: 18
+Think bigger!
+Press enter to quit.
+
+bash-4.4$ ./a.out
+Enter your favorite number (no decimals): 
+10
+Enter a number you don't like (no decimals): 
+7
+Enter your name: 
+Jon
+
+Your secret, lucky number is: 0
+Think bigger!
+Press enter to quit.
+
+bash-4.4$ exit
+exit
+
+Script done on 2024-01-18 18:05:09-08:00
