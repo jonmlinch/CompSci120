@@ -24,7 +24,7 @@ int main()
     int restart = 1;
 
 	// ------------- Explaining the program -------------------------
-	cout << "This program is a simple program which allow you, the user, to enter 2 numbers to perform a mathematical calculation along with a 3rd number which represent the desired operation to be performed.\n";
+	cout << "\n ******** This program is a simple program which allow you, the user, to enter 2 numbers to perform a mathematical calculation along with a 3rd number which represent the desired operation to be performed. ******\n\n\n";
     cout << "So when you are ready, hit ENTER to input your first number  \n";
     cin.ignore();
 

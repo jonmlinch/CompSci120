@@ -1,0 +1,170 @@
+Script started on 2024-01-25 16:30:48-08:00
+bash-4.4$ pwd
+/home/linc2706/labs/lab2
+bash-4.4$ g++ comparison.cpp
+bash-4.4$ ./a.out
+**** Below are 23 examples of Boolean and mathematical expressions **** 
+    1. 0 
+    2. -7 
+    3. -1 + -2 
+    4. -7 + 7 
+    5. 7 < 8 
+    6. 10 > 10 
+    7. (7 < 10) || (7 > 10) 
+    8. (7 < 10) && (7 > 10) 
+    9. -5 >= 5 
+    10. (7 > 10) || (-5 == 5) 
+    11. !(6 == 7) 
+    12. (10 != 11) && (7 > 8) 
+    13. (7 == 6) || (7 == 7) || (7 == 8) 
+    14. (6 < (8 && 9)) 
+    15. (1 == (6 < 8)) 
+    16. (0 == (0 || 1)) 
+    17. 6 < (5 + 2) 
+    18. 6 + (5 == 5) 
+    19. (6 < 7) + (7 >= 5) 
+    20. (0 < 7) - (0 < 7) 
+    21. 4 > 4.2 
+    22. 2 % 3 
+    23. 2 % 2 
+Enter the number of an expression to see if it resolves to TRUE or FALSE (Enter 0 to see all answers):
+1
+The answer for number 1 is FALSE!
+bash-4.4$ ./a.out
+**** Below are 23 examples of Boolean and mathematical expressions **** 
+    1. 0 
+    2. -7 
+    3. -1 + -2 
+    4. -7 + 7 
+    5. 7 < 8 
+    6. 10 > 10 
+    7. (7 < 10) || (7 > 10) 
+    8. (7 < 10) && (7 > 10) 
+    9. -5 >= 5 
+    10. (7 > 10) || (-5 == 5) 
+    11. !(6 == 7) 
+    12. (10 != 11) && (7 > 8) 
+    13. (7 == 6) || (7 == 7) || (7 == 8) 
+    14. (6 < (8 && 9)) 
+    15. (1 == (6 < 8)) 
+    16. (0 == (0 || 1)) 
+    17. 6 < (5 + 2) 
+    18. 6 + (5 == 5) 
+    19. (6 < 7) + (7 >= 5) 
+    20. (0 < 7) - (0 < 7) 
+    21. 4 > 4.2 
+    22. 2 % 3 
+    23. 2 % 2 
+Enter the number of an expression to see if it resolves to TRUE or FALSE (Enter 0 to see all answers):
+0
+The answer for number 1 is FALSE!
+The answer for number 2 is TRUE!
+The answer for number 3 is TRUE!
+The answer for number 4 is FALSE!
+The answer for number 5 is TRUE!
+The answer for number 6 is FALSE!
+The answer for number 7 is TRUE!
+The answer for number 8 is FALSE!
+The answer for number 9 is FALSE!
+The answer for number 10 is FALSE!
+The answer for number 11 is TRUE!
+The answer for number 12 is FALSE!
+The answer for number 13 is TRUE!
+The answer for number 14 is FALSE!
+The answer for number 15 is TRUE!
+The answer for number 16 is FALSE!
+The answer for number 17 is TRUE!
+The answer for number 18 is TRUE!
+The answer for number 19 is TRUE!
+The answer for number 20 is FALSE!
+The answer for number 21 is FALSE!
+The answer for number 22 is TRUE!
+The answer for number 23 is FALSE!
+bash-4.4$ ./a.out
+**** Below are 23 examples of Boolean and mathematical expressions **** 
+    1. 0 
+    2. -7 
+    3. -1 + -2 
+    4. -7 + 7 
+    5. 7 < 8 
+    6. 10 > 10 
+    7. (7 < 10) || (7 > 10) 
+    8. (7 < 10) && (7 > 10) 
+    9. -5 >= 5 
+    10. (7 > 10) || (-5 == 5) 
+    11. !(6 == 7) 
+    12. (10 != 11) && (7 > 8) 
+    13. (7 == 6) || (7 == 7) || (7 == 8) 
+    14. (6 < (8 && 9)) 
+    15. (1 == (6 < 8)) 
+    16. (0 == (0 || 1)) 
+    17. 6 < (5 + 2) 
+    18. 6 + (5 == 5) 
+    19. (6 < 7) + (7 >= 5) 
+    20. (0 < 7) - (0 < 7) 
+    21. 4 > 4.2 
+    22. 2 % 3 
+    23. 2 % 2 
+Enter the number of an expression to see if it resolves to TRUE or FALSE (Enter 0 to see all answers):
+13
+The answer for number 13 is TRUE!
+bash-4.4$ ./a.out
+**** Below are 23 examples of Boolean and mathematical expressions **** 
+    1. 0 
+    2. -7 
+    3. -1 + -2 
+    4. -7 + 7 
+    5. 7 < 8 
+    6. 10 > 10 
+    7. (7 < 10) || (7 > 10) 
+    8. (7 < 10) && (7 > 10) 
+    9. -5 >= 5 
+    10. (7 > 10) || (-5 == 5) 
+    11. !(6 == 7) 
+    12. (10 != 11) && (7 > 8) 
+    13. (7 == 6) || (7 == 7) || (7 == 8) 
+    14. (6 < (8 && 9)) 
+    15. (1 == (6 < 8)) 
+    16. (0 == (0 || 1)) 
+    17. 6 < (5 + 2) 
+    18. 6 + (5 == 5) 
+    19. (6 < 7) + (7 >= 5) 
+    20. (0 < 7) - (0 < 7) 
+    21. 4 > 4.2 
+    22. 2 % 3 
+    23. 2 % 2 
+Enter the number of an expression to see if it resolves to TRUE or FALSE (Enter 0 to see all answers):
+19
+The answer for number 19 is TRUE!
+bash-4.4$ ./a.out
+**** Below are 23 examples of Boolean and mathematical expressions **** 
+    1. 0 
+    2. -7 
+    3. -1 + -2 
+    4. -7 + 7 
+    5. 7 < 8 
+    6. 10 > 10 
+    7. (7 < 10) || (7 > 10) 
+    8. (7 < 10) && (7 > 10) 
+    9. -5 >= 5 
+    10. (7 > 10) || (-5 == 5) 
+    11. !(6 == 7) 
+    12. (10 != 11) && (7 > 8) 
+    13. (7 == 6) || (7 == 7) || (7 == 8) 
+    14. (6 < (8 && 9)) 
+    15. (1 == (6 < 8)) 
+    16. (0 == (0 || 1)) 
+    17. 6 < (5 + 2) 
+    18. 6 + (5 == 5) 
+    19. (6 < 7) + (7 >= 5) 
+    20. (0 < 7) - (0 < 7) 
+    21. 4 > 4.2 
+    22. 2 % 3 
+    23. 2 % 2 
+Enter the number of an expression to see if it resolves to TRUE or FALSE (Enter 0 to see all answers):
+8
+The answer for number 8 is FALSE!
+bash-4.4$ exit
+exit
+
+Script done on 2024-01-25 16:34:04-08:00
