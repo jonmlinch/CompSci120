@@ -1,0 +1,123 @@
+Script started on 2024-01-25 17:43:27-08:00
+bash-4.4$ pwd
+/home/linc2706/assignment2
+bash-4.4$ g++ basicCalucu[K[K[Kculator.cpp
+bash-4.4$ ./a.out
+
+ ******** This program is a simple program which allow you, the user, to enter 2 numbers to perform a mathematical calculation along with a 3rd number which represent the desired operation to be performed. ******
+
+
+So when you are ready, hit ENTER to input your first number  
+
+Enter the FIRST number you would like to use in your calculation: 
+5
+Now, enter the SECOND number you would like to use in your calculation: 
+4
+The operator to be used corresponds to a number. 
+     1: + (add) 
+     2: - (subtract) 
+     3: * (multiply) 
+     4: / (divide) 
+** NOTE **: The first number entered with be the first used in the operation. 
+Enter the number for OPERATION you would like to do.
+3
+5 * 4 = 20
+Press enter to quit.
+
+bash-4.4$ ./a.out
+
+ ******** This program is a simple program which allow you, the user, to enter 2 numbers to perform a mathematical calculation along with a 3rd number which represent the desired operation to be performed. ******
+
+
+So when you are ready, hit ENTER to input your first number  
+
+Enter the FIRST number you would like to use in your calculation: 
+5
+Now, enter the SECOND number you would like to use in your calculation: 
+0
+The operator to be used corresponds to a number. 
+     1: + (add) 
+     2: - (subtract) 
+     3: * (multiply) 
+     4: / (divide) 
+** NOTE **: The first number entered with be the first used in the operation. 
+Enter the number for OPERATION you would like to do.
+4
+WARNING: Dividing by 0 will cause an error. Please try again. 
+Enter the FIRST number you would like to use in your calculation: 
+5
+Now, enter the SECOND number you would like to use in your calculation: 
+6
+The operator to be used corresponds to a number. 
+     1: + (add) 
+     2: - (subtract) 
+     3: * (multiply) 
+     4: / (divide) 
+** NOTE **: The first number entered with be the first used in the operation. 
+Enter the number for OPERATION you would like to do.
+1
+5 + 6 = 11
+Press enter to quit.
+
+bash-4.4$ .a[K/a.out
+
+ ******** This program is a simple program which allow you, the user, to enter 2 numbers to perform a mathematical calculation along with a 3rd number which represent the desired operation to be performed. ******
+
+
+So when you are ready, hit ENTER to input your first number  
+
+Enter the FIRST number you would like to use in your calculation: 
+x
+That is not a number. Please try again.
+That number does not correspond with any of the available operations. Please try again. 
+Enter the FIRST number you would like to use in your calculation: 
+5
+Now, enter the SECOND number you would like to use in your calculation: 
+x
+That is not a number. Please try again.
+That number does not correspond with any of the available operations. Please try again. 
+Enter the FIRST number you would like to use in your calculation: 
+5
+Now, enter the SECOND number you would like to use in your calculation: 
+5
+The operator to be used corresponds to a number. 
+     1: + (add) 
+     2: - (subtract) 
+     3: * (multiply) 
+     4: / (divide) 
+** NOTE **: The first number entered with be the first used in the operation. 
+Enter the number for OPERATION you would like to do.
+x
+That is not a number. Please try again.
+Enter the FIRST number you would like to use in your calculation: 
+5
+Now, enter the SECOND number you would like to use in your calculation: 
+5
+The operator to be used corresponds to a number. 
+     1: + (add) 
+     2: - (subtract) 
+     3: * (multiply) 
+     4: / (divide) 
+** NOTE **: The first number entered with be the first used in the operation. 
+Enter the number for OPERATION you would like to do.
+5
+That number does not correspond with any of the available operations. Please try again. 
+Enter the FIRST number you would like to use in your calculation: 
+5
+Now, enter the SECOND number you would like to use in your calculation: 
+5
+The operator to be used corresponds to a number. 
+     1: + (add) 
+     2: - (subtract) 
+     3: * (multiply) 
+     4: / (divide) 
+** NOTE **: The first number entered with be the first used in the operation. 
+Enter the number for OPERATION you would like to do.
+2
+5 - 5 = 0
+Press enter to quit.
+
+bash-4.4$ exit
+exit
+
+Script done on 2024-01-25 17:45:35-08:00
