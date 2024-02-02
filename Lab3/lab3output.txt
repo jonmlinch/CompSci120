@@ -1,0 +1,99 @@
+Script started on 2024-02-01 17:42:45-08:00
+bash-4.4$ pwd
+/home/linc2706/labs/lab3
+bash-4.4$ g++ updatedBasicCalculator.cpp 
+bash-4.4$ ./a.out
+
+ ******** This program is a simple program which allow you, the user, to enter 2 numbers to perform a mathematical calculation along with a 3rd number which represent the desired operation to be performed. ******
+
+
+Enter the FIRST number you would like to use in your calculation: 
+-5
+Now, enter the SECOND number you would like to use in your calculation: 
+-3
+The operator to be used corresponds to a number. 
+     1: + (add) 
+     2: - (subtract) 
+     3: * (multiply) 
+     4: / (divide) 
+     5: Sum all integers between selected numbers 
+** NOTE **: The first number entered with be the first used in the operation. 
+Enter the number for OPERATION you would like to do.
+5
+The sum of all integers between -5 and -3 is: -12
+Would you like to do another calculation (y/n)?  y
+Enter the FIRST number you would like to use in your calculation: 
+6
+Now, enter the SECOND number you would like to use in your calculation: 
+7.6
+The operator to be used corresponds to a number. 
+     1: + (add) 
+     2: - (subtract) 
+     3: * (multiply) 
+     4: / (divide) 
+     5: Sum all integers between selected numbers 
+** NOTE **: The first number entered with be the first used in the operation. 
+Enter the number for OPERATION you would like to do.
+5
+The sum of all integers between 6 and 7.6 is: 13
+Would you like to do another calculation (y/n)?  y
+Enter the FIRST number you would like to use in your calculation: 
+6
+Now, enter the SECOND number you would like to use in your calculation: 
+0
+The operator to be used corresponds to a number. 
+     1: + (add) 
+     2: - (subtract) 
+     3: * (multiply) 
+     4: / (divide) 
+     5: Sum all integers between selected numbers 
+** NOTE **: The first number entered with be the first used in the operation. 
+Enter the number for OPERATION you would like to do.
+4
+WARNING: Dividing by 0 will cause an error. Please try again. 
+Enter the FIRST number you would like to use in your calculation: 
+r
+That is not a number. Please try again.
+Enter the FIRST number you would like to use in your calculation: 
+y 8
+Now, enter the SECOND number you would like to use in your calculation: 
+t
+That is not a number. Please try again.
+Enter the FIRST number you would like to use in your calculation: 
+8
+Now, enter the SECOND number you would like to use in your calculation: 
+2
+The operator to be used corresponds to a number. 
+     1: + (add) 
+     2: - (subtract) 
+     3: * (multiply) 
+     4: / (divide) 
+     5: Sum all integers between selected numbers 
+** NOTE **: The first number entered with be the first used in the operation. 
+Enter the number for OPERATION you would like to do.
+6
+That number does not correspond with any of the available operations. Please try again. 
+Enter the FIRST number you would like to use in your calculation: 
+y
+That is not a number. Please try again.
+Enter the FIRST number you would like to use in your calculation: 
+-4
+Now, enter the SECOND number you would like to use in your calculation: 
+3
+The operator to be used corresponds to a number. 
+     1: + (add) 
+     2: - (subtract) 
+     3: * (multiply) 
+     4: / (divide) 
+     5: Sum all integers between selected numbers 
+** NOTE **: The first number entered with be the first used in the operation. 
+Enter the number for OPERATION you would like to do.
+3
+-4 * 3 = -12
+Would you like to do another calculation (y/n)?  n
+Press enter to quit.
+
+bash-4.4$ exit
+exit
+
+Script done on 2024-02-01 17:45:37-08:00
