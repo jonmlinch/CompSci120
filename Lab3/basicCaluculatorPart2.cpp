@@ -8,7 +8,7 @@
 */
 /* Basic Calculator (Expanded) - 
     * This program builds on the basic calculator that was built in 
-    * Assignment 2.
+    * Assignment 2 and adds the requirements from Lab 3.
 */
 #include<iostream> 
 using namespace std;
@@ -25,11 +25,10 @@ int main()
     int num1Check = 0;
     int num2Check = 0;
     int operationCheck = 0;
+    char newCalc[] = "no";
 
 	// ------------- Explaining the program -------------------------
 	cout << "\n ******** This program is a simple program which allow you, the user, to enter 2 numbers to perform a mathematical calculation along with a 3rd number which represent the desired operation to be performed. ******\n\n\n";
-    cout << "So when you are ready, hit ENTER to input your first number  \n";
-    cin.ignore();
 
     //While loop to rerun program logic when an error occurs allowing user to correct mistake
     while(restart == 1) {
@@ -41,6 +40,7 @@ int main()
         if(cin.fail()) {
             cin.clear();
             cin.ignore();
+            num1Check = 0;
             cout<<"That is not a number. Please try again."<<endl;
         } else {
             //Sets value to determine if num1 variable was correctly set
@@ -57,6 +57,7 @@ int main()
             if(cin.fail()) {
                 cin.clear();
                 cin.ignore();
+                num2Check = 0;
                 cout<<"That is not a number. Please try again."<<endl;
             } else {
                 num2Check = 1;
@@ -71,6 +72,7 @@ int main()
             cout << "     2: - (subtract) \n";
             cout << "     3: * (multiply) \n";
             cout << "     4: / (divide) \n";
+            cout << "     5: Sum all integers between selected numbers \n";
             cout << "** NOTE **: The first number entered with be the first used in the operation. \n";
             cout << "Enter the number for OPERATION you would like to do.\n";
             cin >> operation;
@@ -79,15 +81,18 @@ int main()
             if(cin.fail()) {
                 cin.clear();
                 cin.ignore();
+                operationCheck = 0;
                 cout<<"That is not a number. Please try again."<<endl;
             } else {
                 operationCheck = 1;
             }
+        } else {
+            operationCheck = 0;
         }
 
         // Check to see if a valid operator was chosen
-        if(operation) {
-            if(operation < 1 || operation > 4) { //Validate chosen operation is a valid operation
+        if(operationCheck) {
+            if(operation < 1 || operation > 5) { //Validate chosen operation is a valid operation
                 cout << "That number does not correspond with any of the available operations. Please try again. \n";
             } else {
                 restart = 0; //Setting restart to 0 to exit while condition
@@ -115,7 +120,49 @@ int main()
                         cout << num1 << " / " << num2 << " = " << answer << endl;
                     }
                 }
+                
+                //New operation added as part of lab 3
+                if(operation == 5) {
+                    int highestInt;
+                    int lowestInt;
+                    
+                    //Checking to see which number is higher and setting variables accordingly
+                    if(num1 > num2) {
+                        highestInt = num1;
+                        lowestInt = num2;
+                    } else {
+                        highestInt = num2;
+                        lowestInt = num1;
+                    }
+                    
+                    //For loop to sum all numbers
+                    for (int i = lowestInt; i <= highestInt; i++) {
+                        if(i == lowestInt) {
+                            answer = i;
+                        } else {
+                            answer = answer + i;
+                        }
+                    }
+                    
+                    cout << "The sum of all integers between " << num1 << " and " << num2 << " is: " << answer << endl;
+                }
             }
+        }
+
+        // Added to program as part of lab 3
+        if (restart != 1) {
+            cout << "Would you like to do another calculation (y/n)?  ";
+            cin >> newCalc;
+
+            switch(newCalc[0]) {
+                case 'y':
+                case 'Y':
+                    restart = 1;
+                    break;
+                default:
+                    restart = 0;
+                    break;
+            } 
         }
     }
 
