@@ -27,6 +27,7 @@ int main() {
 
     // ------------  Exit the game somewhat gracefully --------------------------
     cin.ignore();
+    cout << "Thanks for playing! \n";
     cout << "\nPress enter to quit.\n";
     cin.ignore();
     return 0;

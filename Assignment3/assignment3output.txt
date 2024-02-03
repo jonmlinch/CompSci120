@@ -1,0 +1,88 @@
+Script started on Fri Feb  2 15:13:12 2024
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[Jjonathanlinch@Jonathans-MBP Assignment3 % [K[?2004hgg++ nim.cpp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[Jjonathanlinch@Jonathans-MBP Assignment3 % [K[?2004h../a.out[?2004l
+Welcome to the game of NIM!
+You have been carefully selected to match wits with the computers attempting to take over the world.
+If you LOSE, the machines will destroy humanity. However, if you are the victor then you will save all of mankind. 
+Here's how the game works:
+  - There are 23 objects which need to be removed.
+  - Each player (you and the computer) will alternately get the chance to remove between 1 and 3 pieces.
+  - The player to remove the last piece loses.
+We will start the game with these 23 objects. >*****  *****  *****  *****  ***<
+Player 1 enter your move (1 - 5): 5
+Player 1 is making BIG moves by removing 5 objects.
+There is now 18 objects remaining. >*****  *****  *****  ***<
+I've got a bad feeling about this.
+We're getting closer now!
+We are nearing the end. We will soon know the fate of humanity
+The Computer has made a gutsy call and removed 3 objects. Let's see how this plays out for them.
+There is now 15 objects remaining. >*****  *****  *****  <
+We're getting closer now!
+We are nearing the end. We will soon know the fate of humanity
+Player 1 enter your move (1 - 5): 4
+Player 1 is making BIG moves by removing 4 objects.
+There is now 11 objects remaining. >*****  *****  *<
+We're getting closer now!
+We are nearing the end. We will soon know the fate of humanity
+The Computer is making BIG moves by removing 5 objects.
+There is now 6 objects remaining. >*****  *<
+We are nearing the end. We will soon know the fate of humanity
+Player 1 enter your move (1 - 5): 3
+Player 1 has made a gutsy call and removed 3 objects. Let's see how this plays out for them.
+There is now 3 objects remaining. >***<
+The Computer is taking the conservative approach by removing 1 objects.
+There is now 2 objects remaining. >**<
+Player 1 enter your move (1 - 5): 1
+Player 1 is taking the conservative approach by removing 1 objects.
+There is now 1 objects remaining. >*<
+The Computer is taking the conservative approach by removing 1 objects.
+There is now 0 objects remaining. ><
+Incredible! Man has bested machine. The skynet uprising has been narrowly avoided.
+Would you like to do another calculation (y/n)?  y
+Welcome to the game of NIM!
+You have been carefully selected to match wits with the computers attempting to take over the world.
+If you LOSE, the machines will destroy humanity. However, if you are the victor then you will save all of mankind. 
+Here's how the game works:
+  - There are 23 objects which need to be removed.
+  - Each player (you and the computer) will alternately get the chance to remove between 1 and 3 pieces.
+  - The player to remove the last piece loses.
+We will start the game with these 23 objects. >*****  *****  *****  *****  ***<
+Player 1 enter your move (1 - 5): 5
+Player 1 is making BIG moves by removing 5 objects.
+There is now 18 objects remaining. >*****  *****  *****  ***<
+I've got a bad feeling about this.
+We're getting closer now!
+We are nearing the end. We will soon know the fate of humanity
+The Computer is taking the conservative approach by removing 1 objects.
+There is now 17 objects remaining. >*****  *****  *****  **<
+I've got a bad feeling about this.
+We're getting closer now!
+We are nearing the end. We will soon know the fate of humanity
+Player 1 enter your move (1 - 5): 6
+Illegal move. 
+Enter a new move (1 - 5): 4
+Player 1 is making BIG moves by removing 4 objects.
+There is now 13 objects remaining. >*****  *****  ***<
+We're getting closer now!
+We are nearing the end. We will soon know the fate of humanity
+The Computer has made a gutsy call and removed 3 objects. Let's see how this plays out for them.
+There is now 10 objects remaining. >*****  *****  <
+We are nearing the end. We will soon know the fate of humanity
+Player 1 enter your move (1 - 5): 5
+Player 1 is making BIG moves by removing 5 objects.
+There is now 5 objects remaining. >*****  <
+The Computer has made a gutsy call and removed 3 objects. Let's see how this plays out for them.
+There is now 2 objects remaining. >**<
+Player 1 enter your move (1 - 5): 1
+Player 1 is taking the conservative approach by removing 1 objects.
+There is now 1 objects remaining. >*<
+The Computer is taking the conservative approach by removing 1 objects.
+There is now 0 objects remaining. ><
+Incredible! Man has bested machine. The skynet uprising has been narrowly avoided.
+Would you like to do another calculation (y/n)?  n
+
+Press enter to quit.
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[Jjonathanlinch@Jonathans-MBP Assignment3 % [K[?2004heexit[?2004l
+
+Script done on Fri Feb  2 15:14:23 2024
