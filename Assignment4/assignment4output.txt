@@ -1,0 +1,190 @@
+Script started on Fri Feb  9 19:13:30 2024
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[Jjonathanlinch@Jonathans-MBP Assignment4 % [K[?2004hgg++ textGame.cpp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[Jjonathanlinch@Jonathans-MBP Assignment4 % [K[?2004ha ..a. ./a,o  .out[?2004l
+Welcome to the mysterious labrynth of Ka'a.
+The labrynth will lead you through an elaborant network of rooms each with a set of doors leading deeper into the labrynth.
+Choose the right combination of doors and you just might make it out alive. Choose poorly and...
+Well let's just say you wouldn't be the first to see their final moments in the labrynth.
+
+Along the way look out for treasure to build your stash or riches but beware as danger lurks to wear down your health.
+
+Shall we begin? (y/n)
+y
+
+Excellent! Then let us begin!
+
+We begin in a cavernous empty room. The walls are barren gray stone with fleck of mold.
+You hear a load 'CRASH!' as the door you entered from closes behind you followed by a quiet but definitive 'klink' signaling that the door is not locked.
+Alas, you a different but welcoming door in front of you. What do you do?
+  1. Enter the next room through the new door
+  2. Try desperately to break free through the door you came in from
+Choose 1 or 2: 2
+You have made a poor decision and and perished tragically in the labrynth.
+
+Would you like to play again? (y/n)
+y
+Welcome to the mysterious labrynth of Ka'a.
+The labrynth will lead you through an elaborant network of rooms each with a set of doors leading deeper into the labrynth.
+Choose the right combination of doors and you just might make it out alive. Choose poorly and...
+Well let's just say you wouldn't be the first to see their final moments in the labrynth.
+
+Along the way look out for treasure to build your stash or riches but beware as danger lurks to wear down your health.
+
+Shall we begin? (y/n)
+y
+
+Excellent! Then let us begin!
+
+We begin in a cavernous empty room. The walls are barren gray stone with fleck of mold.
+You hear a load 'CRASH!' as the door you entered from closes behind you followed by a quiet but definitive 'klink' signaling that the door is not locked.
+Alas, you a different but welcoming door in front of you. What do you do?
+  1. Enter the next room through the new door
+  2. Try desperately to break free through the door you came in from
+Choose 1 or 2: 1
+You approach the door hesitantly. Before entering you check on your condition and find you have...
+Health: 100
+Wealth: 0
+Now you confidently burst forth into the first room
+
+As your eyes adjust to the darkness of the first room, your face lights up at the site of a treasure chest positioned in the center of the chamber.
+You approach the chest and see an inscription that reads: 
+   'In this chest lies a treasure the likes of which have never been    
+  known to those of mortal beginnings. It holds the highest of power but   
+       Can only be wielded by one who knows the magic number.'    
+
+After reading the inscription, what do you do?
+  1. Attempt a guess at the magic number and retrieve your treasure...hopefully
+  2. Continue looking for a way out
+Choose 1 or 2: 1
+You notice a quill with ink and proceed to write the 'magic number' on the chest. 
+What number do you write? (no decimals)
+123
+The ink begins to glow then suddenly bursts into a bright flash and... 
+Suddenly, you are surrounded by wing beats of swarm of bats as they descend upon you. They nibble at your flesh stripping you of your health.
+When they have had their fill, they move on as quickly as the appeared.
+Health: 80
+You look for an exit to the room and realize there are 2 doors on the far side of the room. Which door will you go through?
+  1. This door is made of heavy gauge metal and looks heavy to move
+  2. This door is made of rainbows and light. An odd make up for a door to be sure.
+Choose 1 or 2: 1
+You push hard against the metal door, it creaks open, and you enter.While the door was a challenge to move, you realize that it was not due to the heaviness of the door but rather due to the room being filled floor to ceiling with chicken nuggets!
+The room is so full of chicken nuggets that you can't see to the other side
+However, you feel a draft suggesting there may be an opening on the other side. What would you like to do?
+  1. Find a way through the nuggets to the other side.
+  2. Go back through the door you entered through.
+Choose 1 or 2: 2
+You turn around and exit back into the room you we just in.You look for an exit to the room and realize there are 2 doors on the far side of the room. Which door will you go through?
+  1. This door is made of heavy gauge metal and looks heavy to move
+  2. This door is made of rainbows and light. An odd make up for a door to be sure.
+Choose 1 or 2: 1
+You push hard against the metal door, it creaks open, and you enter.While the door was a challenge to move, you realize that it was not due to the heaviness of the door but rather due to the room being filled floor to ceiling with chicken nuggets!
+The room is so full of chicken nuggets that you can't see to the other side
+Since you have been to this room before, you decide the only path forward is through the chicken nuggets.With great stuggle, you manage to eat a path through the mountain of nuggets.
+Health: 90
+You are tired and full but eventually you find...a giant mouth! It's a vicious mouth full of sharp teeth. You notice the door has a handle which looks like a door knob.
+You reach out to open the door when 'SNAP' the door nearly bites you hand off. What do you do?
+  1. Soothe the door with an arm full of nuggets.
+  2. Go back through the door you entered through.
+Choose 1 or 2: 1
+The door relaxes and you try once again to open the door. This time the knob turns and you enter through the door.
+Inside the room you see a pedestal topped with maginificent chalace covered in jewels.
+You also notice 2 doors. The closest door, curiously, has a pile of chicken nuggets strewn in from of it.
+The second door is best described as the darkest hole in a wall you have ever seen. You hear the squeak of bats and shudder at the thought of an encounter.
+What do you do?
+  1. Collect the chalace from the pedestal.
+  2. Explore the closest door with the chicken nuggets.
+  3. Enter the dark hole on the other side of the room.
+Choose 1, 2, 3: 1
+The chosen_door: 1
+The collectedChalace: 0
+You reach for the chalace and just as your finger tips connect with bejeweled goblet a lightning bolt strikes you
+Health: 70
+What would you like to do now?
+  1. Try again to collect the chalace from the pedestal. Maybe something different will happen.
+  2. Explore the closest door with the chicken nuggets.
+  3. Enter the dark hole on the other side of the room.
+Choose 1, 2, 3: 1
+The collectedChalace: 1
+You reach for the chalace and just as your finger tips connect with bejeweled goblet a lightning bolt strikes you
+Health: 50
+What would you like to do now?
+  1. Try again to collect the chalace from the pedestal. Maybe something different will happen.
+  2. Explore the closest door with the chicken nuggets.
+  3. Enter the dark hole on the other side of the room.
+Choose 1, 2, 3: 1
+The collectedChalace: 2
+You reach for the chalace and just as your finger tips connect with bejeweled goblet a lightning bolt strikes you
+Health: 30
+What would you like to do now?
+  1. Try again to collect the chalace from the pedestal. Maybe something different will happen.
+  2. Explore the closest door with the chicken nuggets.
+  3. Enter the dark hole on the other side of the room.
+Choose 1, 2, 3: 1
+The collectedChalace: 3
+You gather the chalace and add it to your collection
+Wealth: 1000
+You now peer through the dark hole warily but ultimately decide to jump through head first. On the other side you find a giant sign saying...
+Congratulations! You survived the labrynth and have proven your valor to all.
+
+Would you like to play again? (y/n)
+y
+Welcome to the mysterious labrynth of Ka'a.
+The labrynth will lead you through an elaborant network of rooms each with a set of doors leading deeper into the labrynth.
+Choose the right combination of doors and you just might make it out alive. Choose poorly and...
+Well let's just say you wouldn't be the first to see their final moments in the labrynth.
+
+Along the way look out for treasure to build your stash or riches but beware as danger lurks to wear down your health.
+
+Shall we begin? (y/n)
+y
+
+Excellent! Then let us begin!
+
+We begin in a cavernous empty room. The walls are barren gray stone with fleck of mold.
+You hear a load 'CRASH!' as the door you entered from closes behind you followed by a quiet but definitive 'klink' signaling that the door is not locked.
+Alas, you a different but welcoming door in front of you. What do you do?
+  1. Enter the next room through the new door
+  2. Try desperately to break free through the door you came in from
+Choose 1 or 2: 1
+You approach the door hesitantly. Before entering you check on your condition and find you have...
+Health: 100
+Wealth: 0
+Now you confidently burst forth into the first room
+You look for an exit to the room and realize there are 2 doors on the far side of the room. Which door will you go through?
+  1. This door is made of heavy gauge metal and looks heavy to move
+  2. This door is made of rainbows and light. An odd make up for a door to be sure.
+Choose 1 or 2: 2
+You push softly against the rainbow but it doesn't budge so you push harder and harder until suddenly you crash through to the other side.
+You take a hard spill landing flat on your face!
+Health: 90
+As you gather yourself off the floor. You notice a giant pile of treasure in the middle of the room and behind it an old, crumbly wooden door.
+What do you do?
+  1. Gather your treasure.
+  2. Go through the creaky old door.
+  3. Return the way you came.
+Choose 1, 2, 3: 1
+You gather your treasure and add to your collection. 
+Wealth: 100
+You're now left with 2 options: 
+  1. Go through the creaky old door.
+  2. Return the way you came.
+Choose 1, 2, 3: 1
+You approach the old wooden door and when reach for the handle when suddenly it crashes to the ground having fallen off it's hinges.
+You shrug your shoulders and enter the room.Inside the room you see a pedestal topped with maginificent chalace covered in jewels.
+You also notice 2 doors. The closest door, curiously, has a pile of chicken nuggets strewn in from of it.
+The second door is best described as the darkest hole in a wall you have ever seen. You hear the squeak of bats and shudder at the thought of an encounter.
+What do you do?
+  1. Collect the chalace from the pedestal.
+  2. Explore the closest door with the chicken nuggets.
+  3. Enter the dark hole on the other side of the room.
+Choose 1, 2, 3: 2
+The chosen_door: 2
+You approach the door and notice that it appears to only move in one direction and you cannot go through it.
+You sigh in disappointment and resign yourself to your fate by moving toward the farther door.You now peer through the dark hole warily but ultimately decide to jump through head first. On the other side you find a giant sign saying...
+Congratulations! You survived the labrynth and have proven your valor to all.
+
+Would you like to play again? (y/n)
+n
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[Jjonathanlinch@Jonathans-MBP Assignment4 % [K[?2004heexit[?2004l
+
+Script done on Fri Feb  9 19:15:11 2024
