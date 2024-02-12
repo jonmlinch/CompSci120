@@ -1,0 +1,106 @@
+Script started on 2024-02-08 16:43:53-08:00
+bash-4.4$ pwd
+/home/linc2706/labs/lab4
+bash-4.4$ g++ calc.cpp
+bash-4.4$ ./a.out
+
+Add (1)
+Subtract (2)
+Divide (3)
+Area of a right circle cylinder (4)
+Volume of a right circle cylinder (5)
+Area of a right circle cone (6)
+Exit (0)
+Enter your choice: 1
+Please, enter a value: 5
+Thanks.
+Please, enter a value: 6
+Thanks.
+
+5 + 6 = 11
+
+Add (1)
+Subtract (2)
+Divide (3)
+Area of a right circle cylinder (4)
+Volume of a right circle cylinder (5)
+Area of a right circle cone (6)
+Exit (0)
+Enter your choice: 5 4
+Please, enter a radius for your cylinder: 5
+Thanks.
+Please, enter a height for your cylinder: 6
+Thanks.
+
+The formula for area of a right circle cylindar is: 2πr(r+h)
+2π(5)(5 + 6) = 345.575
+
+Add (1)
+Subtract (2)
+Divide (3)
+Area of a right circle cylinder (4)
+Volume of a right circle cylinder (5)
+Area of a right circle cone (6)
+Exit (0)
+Enter your choice: 5
+Please, enter a radius for your cylinder: 5
+Thanks.
+Please, enter a height for your cylinder: 6
+Thanks.
+
+The formula for volume of a right circle cylindar is: π(r^2)*h
+π(5^2) * 6 = 471.239
+
+Add (1)
+Subtract (2)
+Divide (3)
+Area of a right circle cylinder (4)
+Volume of a right circle cylinder (5)
+Area of a right circle cone (6)
+Exit (0)
+Enter your choice: 6
+Please, enter a radius for your cylinder: 5
+Thanks.
+Please, enter a height for your cylinder: 6
+Thanks.
+
+The formula for area of a right circle cone is: πr^2 + πr√(r^2 + h^2)
+π(5^2) + π(5)√(5^2 + 6^2) = 201.223
+
+Add (1)
+Subtract (2)
+Divide (3)
+Area of a right circle cylinder (4)
+Volume of a right circle cylinder (5)
+Area of a right circle cone (6)
+Exit (0)
+Enter your choice: 0
+bash-4.4$ ./a.out
+
+Add (1)
+Subtract (2)
+Divide (3)
+Area of a right circle cylinder (4)
+Volume of a right circle cylinder (5)
+Area of a right circle cone (6)
+Exit (0)
+Enter your choice: 2
+Please, enter a value: 5
+Thanks.
+Please, enter a value: 6
+Thanks.
+
+5 - 6 = -1
+
+Add (1)
+Subtract (2)
+Divide (3)
+Area of a right circle cylinder (4)
+Volume of a right circle cylinder (5)
+Area of a right circle cone (6)
+Exit (0)
+Enter your choice: 0
+bash-4.4$ exit
+exit
+
+Script done on 2024-02-08 16:46:06-08:00
