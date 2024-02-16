@@ -4,8 +4,10 @@
     02/16/24
     Assignment 5
     All requirements should be met.
-    Variations;
-    - 
+    Assigned Tasks
+    - Added a menu() helper to demonstrate rooms to choose
+    - Added the game of NIM to one of the room
+    - Added a helper function to menu() that allows the user to print health and wealth
 */
 #include<iostream>
 
@@ -27,6 +29,11 @@ Stats room3(Stats currentStats);
 Stats room4(Stats currentStats);
 Stats start(Stats currentStats);
 int end(Stats currentStats);
+int menu(int min, int max, Stats currentStats);
+void displayNumObjects(int numObjects);
+int game();
+int nim();
+void test();
 
 
 //Main function to run the program
@@ -103,8 +110,7 @@ Stats start(Stats currentStats) {
     cout << "Alas, you a different but welcoming door in front of you. What do you do?" << endl;
     cout << "  1. Enter the next room through the new door" << endl;
     cout << "  2. Try desperately to break free through the door you came in from" << endl;
-    cout << "Choose 1 or 2: ";
-    cin >> chosen_room;
+    chosen_room = menu(1, 2, currentStats);
     
     if (chosen_room == 1) { //Choosing 1 moves on to room 1
         cout << "You approach the door hesitantly. Before entering you check on your condition and find you have..." << endl;
@@ -134,8 +140,7 @@ Stats room1(Stats currentStats) {
         cout << endl << "After reading the inscription, what do you do?" << endl;
         cout << "  1. Attempt a guess at the magic number and retrieve your treasure...hopefully" << endl;
         cout << "  2. Continue looking for a way out" << endl;
-        cout << "Choose 1 or 2: ";
-        cin >> chosen_path;
+        chosen_path = menu(1, 2, currentStats);
         
         if (chosen_path != 1 && chosen_path != 2 ) {
             currentStats.health = 0;
@@ -171,8 +176,7 @@ Stats room1(Stats currentStats) {
     cout << "You look for an exit to the room and realize there are 2 doors on the far side of the room. Which door will you go through?" << endl;
     cout << "  1. This door is made of heavy gauge metal and looks heavy to move" << endl;
     cout << "  2. This door is made of rainbows and light. An odd make up for a door to be sure." << endl;
-    cout << "Choose 1 or 2: ";
-    cin >> chosen_door;
+    chosen_door = menu(1, 2, currentStats);
     
     if(chosen_door == 1) {
         cout << "You push hard against the metal door, it creaks open, and you enter.";
@@ -212,8 +216,7 @@ Stats room2(Stats currentStats) {
         cout << "However, you feel a draft suggesting there may be an opening on the other side. What would you like to do?" << endl;
         cout << "  1. Find a way through the nuggets to the other side." << endl;
         cout << "  2. Go back through the door you entered through." << endl;
-        cout << "Choose 1 or 2: ";
-        cin >> chosen_door;
+        chosen_door = menu(1, 2, currentStats);
         
         if(chosen_door != 1 && chosen_door != 2) {
             currentStats.health = 0;
@@ -236,8 +239,7 @@ Stats room2(Stats currentStats) {
         cout << "You reach out to open the door when 'SNAP' the door nearly bites you hand off. What do you do?" << endl;
         cout << "  1. Soothe the door with an arm full of nuggets." << endl;
         cout << "  2. Go back through the door you entered through." << endl;
-        cout << "Choose 1 or 2: ";
-        cin >> chosen_door;
+        chosen_door = menu(1, 2, currentStats);
         
         if(chosen_door != 1 && chosen_door != 2) {
             currentStats.health = 0;
@@ -271,8 +273,7 @@ Stats room3(Stats currentStats) { //Rainbow door (rm1)
         cout << "  1. Gather your treasure." << endl;
         cout << "  2. Go through the creaky old door." << endl;
         cout << "  3. Return the way you came." << endl;
-        cout << "Choose 1, 2, 3: ";
-        cin >> chosen_door;
+        chosen_door = menu(1, 3, currentStats);
     } else {
         cout << "With the treasure gone, the only thing to do is enter the creaky old door. " << endl;
         chosen_door = 2;
@@ -288,15 +289,15 @@ Stats room3(Stats currentStats) { //Rainbow door (rm1)
         cout << "You're now left with 2 options: " << endl;
         cout << "  1. Go through the creaky old door." << endl;
         cout << "  2. Return the way you came." << endl;
-        cout << "Choose 1, 2, 3: ";
-        cin >> chosen_door;
+        chosen_door = menu(1, 2, currentStats);
         chosen_door++; //add one to the choice to match with previous numbering
     }
     
     if(chosen_door == 2) {
-        cout << "You approach the old wooden door and when reach for the handle when suddenly it crashes to the ground having fallen off it's hinges." << endl;
-        cout << "You shrug your shoulders and enter the room.";
-        currentStats.progress = 4;
+        cout << "You approach the old wooden door and when reach for the handle when suddenly the game of min magically appears." << endl;
+        cout << "You shrug your shoulders and realize you must now beat the game before you can enter the room.";
+        
+        currentStats.progress = nim();
     }
     
     if(chosen_door == 3) {
@@ -323,8 +324,7 @@ Stats room4(Stats currentStats) {
     cout << "  1. Collect the chalace from the pedestal." << endl;
     cout << "  2. Explore the closest door with the chicken nuggets." << endl;
     cout << "  3. Enter the dark hole on the other side of the room." << endl;
-    cout << "Choose 1, 2, 3: ";
-    cin >> chosen_door;
+    chosen_door = menu(1,3, currentStats);
     
     if(chosen_door != 1 && chosen_door != 2 && chosen_door != 3) {
         currentStats.health = 0;
@@ -344,8 +344,7 @@ Stats room4(Stats currentStats) {
             cout << "  1. Try again to collect the chalace from the pedestal. Maybe something different will happen." << endl;
             cout << "  2. Explore the closest door with the chicken nuggets." << endl;
             cout << "  3. Enter the dark hole on the other side of the room." << endl;
-            cout << "Choose 1, 2, 3: ";
-            cin >> chosen_door;
+            chosen_door = menu(1, 3, currentStats);
         } else {
             cout << "You gather the chalace and add it to your collection" << endl;
             currentStats.wealth += 1000;
@@ -395,3 +394,186 @@ void print_wealth(Stats currentStats) {
     cout << "Wealth: " << currentStats.wealth << endl;
 }
 
+int menu(int min, int max, Stats currentStats) {
+    int selectedValue = 0;
+    
+    while(selectedValue < min || selectedValue > max) {
+        cout << "Choose ";
+        for(int i = min; i <= max; i++) {
+            if(i == max) {
+                cout << " or " << i << ".";
+            } else if (i == max - 1) {
+                cout << i;
+            } else {
+                cout << i << ", ";
+            }
+        }
+        
+        cout << "You can also press 0 to see your current health and wealth." << endl;
+        
+        cin >> selectedValue;
+        
+        if(selectedValue == 0) {
+            print_health(currentStats);
+            print_wealth(currentStats);
+        }
+        
+        if(selectedValue != 0 && (selectedValue < min || selectedValue > max)) {
+            cout << "That's not a valid option. Try again!" << endl;
+        }
+        
+    }
+    
+    return selectedValue;
+}
+
+
+// -------------------------- THE GAME OF NIM --------------------------
+int nim() {
+
+    int restart = 1;
+    
+    //Allow the game to be played over and over
+    while(restart == 1) {
+        //Added the game to its own function to make main more readable
+        restart = game();
+    }
+
+    return 4;
+}
+
+//Game function. Nearly all of the game logic is in this function
+int game() {
+    // ---------------- Variable declarations ---------------------
+    int restart = 0;
+    int num_objects = 23;
+    int current_player = 1;
+    int minMove = 1;
+    int maxMove = 5;
+    int move;
+    char newGame[] = "no";
+    string playerString;
+
+    // ---------------- Rules of engagement ---------------------
+    cout << "Welcome to the game of NIM!" << endl;
+    cout << "You have been carefully selected to match wits with the computers attempting to take over the world." << endl;
+    cout << "If you LOSE, the machines will destroy humanity. However, if you are the victor then you will save all of mankind. " << endl;
+    cout << "Here's how the game works:" << endl;
+    cout << "  - There are 23 objects which need to be removed." << endl;
+    cout << "  - Each player (you and the computer) will alternately get the chance to remove between 1 and 3 pieces." << endl;
+    cout << "  - The player to remove the last piece loses." << endl;
+    cout << "We will start the game with these " << num_objects << " objects.";
+    
+    //Call display objects function to show the starting number of objects
+    displayNumObjects(num_objects);
+    
+
+    // ----------- Beginning of the main game loop ----------------
+    // Do-while which keeps the game going as long there are pieces to be removed
+    do
+    {
+        // Checking to see if player or computer turn
+        if (current_player == 1) {
+            playerString = "Player 1 ";
+            cout << "Player 1 enter your move (" << minMove << " - " << maxMove << "): ";
+            cin >> move; // input
+            while (move < minMove || move > maxMove || move > num_objects) {
+                cout << "Illegal move. \nEnter a new move (" << minMove << " - " << maxMove << "): ";
+                cin >> move;
+            }
+        } else {
+            playerString = "The Computer ";
+            // Do-while loop to make sure that computer enters a valid number
+            do {
+                
+                //Determine the computer's move based on the min and max moves values
+                move = minMove + rand() % maxMove;
+                
+                //Prevents computer from putting in a losing number unless it has to
+                if (move == num_objects && num_objects > minMove) {
+                    move = move - 1;
+                }
+                
+            } while (move < minMove || move > maxMove || move > num_objects);
+        }
+
+        //Color commentary based on the number of objects removed
+        switch (move){
+            case 1:
+                cout << playerString << "is taking the conservative approach by removing " << move << " objects." << endl;
+                break;
+            case 2:
+                cout << playerString << "has chosen the middle ground and removed " << move << " objects. Interesting..." << endl;
+                break;
+            case 3:
+                cout << playerString << "has made a gutsy call and removed " << move << " objects. Let's see how this plays out for them." << endl;
+                break;
+            default: 
+                cout << playerString << "is making BIG moves by removing " << move << " objects." << endl;
+                
+        }
+
+        num_objects = num_objects - move; // implement the move
+        cout << "There is now " << num_objects << " objects remaining.";
+        displayNumObjects(num_objects);
+
+        //Conditions to determine a statement about the status of the game
+        if (num_objects > 20) {
+            cout << "There's still lots of game to be played." << endl;
+        }
+
+        if (num_objects > 15) {
+            cout << "I've got a bad feeling about this." << endl;
+        }
+
+        if (num_objects > 10) {
+            cout << "We're getting closer now!" << endl;
+        }
+
+        if (num_objects > 5) {
+            cout << "We are nearing the end. We will soon know the fate of humanity" << endl;
+        }
+        current_player = (current_player + 1) % 2; // switch players
+    } while (num_objects > 0);
+
+    // ------------  Winner Declaration --------------------------
+    if (current_player == 1) { // Adding more interesting messaging for the end of the game
+        cout << "Incredible! Man has bested machine. The skynet uprising has been narrowly avoided." << endl;
+    }
+    else {
+        cout << "The machines have won! Welcome to the end of days. Don't panic!...Ok maybe panic a little." << endl;
+    }
+    
+    //Ask player if they want to restart the game
+    cout << "Would you like to do another calculation (y/n)?  ";
+    cin >> newGame;
+
+    switch(newGame[0]) {
+        case 'y':
+        case 'Y':
+            restart = 1;
+            break;
+        default:
+            restart = 0;
+            break;
+    } 
+    
+    return restart;
+}
+
+//Function to display the number of objects remaining
+void displayNumObjects(int numObjects){
+    cout << " >";
+    for(int i = 0; i < numObjects; i++) {
+        
+        //If statement to group objects to make it easier to track
+        if(i % 5 == 4) {
+            cout << "*  ";
+        } else {
+            cout << "*";
+        }
+        
+    }
+    
+    cout << "<\n";
+}

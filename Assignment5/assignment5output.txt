@@ -1,0 +1,156 @@
+Script started on 2024-02-15 17:40:49-08:00
+bash-4.4$ pwd
+/home/linc2706/assignment5
+bash-4.4$ g++ textGameCont.cpp
+bash-4.4$ ./a.out
+Welcome to the mysterious labrynth of Ka'a.
+The labrynth will lead you through an elaborant network of rooms each with a set of doors leading deeper into the labrynth.
+Choose the right combination of doors and you just might make it out alive. Choose poorly and...
+Well let's just say you wouldn't be the first to see their final moments in the labrynth.
+
+Along the way look out for treasure to build your stash or riches but beware as danger lurks to wear down your health.
+
+Shall we begin? (y/n)
+y
+
+Excellent! Then let us begin!
+
+We begin in a cavernous empty room. The walls are barren gray stone with fleck of mold.
+You hear a load 'CRASH!' as the door you entered from closes behind you followed by a quiet but definitive 'klink' signaling that the door is not locked.
+Alas, you a different but welcoming door in front of you. What do you do?
+  1. Enter the next room through the new door
+  2. Try desperately to break free through the door you came in from
+Choose 1 or 2.You can also press 0 to see your current health and wealth.
+0
+Health: 100
+Wealth: 0
+Choose 1 or 2.You can also press 0 to see your current health and wealth.
+1
+You approach the door hesitantly. Before entering you check on your condition and find you have...
+Health: 100
+Wealth: 0
+Now you confidently burst forth into the first room
+
+As your eyes adjust to the darkness of the first room, your face lights up at the site of a treasure chest positioned in the center of the chamber.
+You approach the chest and see an inscription that reads: 
+   'In this chest lies a treasure the likes of which have never been    
+  known to those of mortal beginnings. It holds the highest of power but   
+       Can only be wielded by one who knows the magic number.'    
+
+After reading the inscription, what do you do?
+  1. Attempt a guess at the magic number and retrieve your treasure...hopefully
+  2. Continue looking for a way out
+Choose 1 or 2.You can also press 0 to see your current health and wealth.
+3
+That's not a valid option. Try again!
+Choose 1 or 2.You can also press 0 to see your current health and wealth.
+2
+You look for an exit to the room and realize there are 2 doors on the far side of the room. Which door will you go through?
+  1. This door is made of heavy gauge metal and looks heavy to move
+  2. This door is made of rainbows and light. An odd make up for a door to be sure.
+Choose 1 or 2.You can also press 0 to see your current health and wealth.
+2
+You push softly against the rainbow but it doesn't budge so you push harder and harder until suddenly you crash through to the other side.
+You take a hard spill landing flat on your face!
+Health: 90
+As you gather yourself off the floor. You notice a giant pile of treasure in the middle of the room and behind it an old, crumbly wooden door.
+What do you do?
+  1. Gather your treasure.
+  2. Go through the creaky old door.
+  3. Return the way you came.
+Choose 1, 2 or 3.You can also press 0 to see your current health and wealth.
+2
+You approach the old wooden door and when reach for the handle when suddenly the game of min magically appears.
+You shrug your shoulders and realize you must now beat the game before you can enter the room.Welcome to the game of NIM!
+You have been carefully selected to match wits with the computers attempting to take over the world.
+If you LOSE, the machines will destroy humanity. However, if you are the victor then you will save all of mankind. 
+Here's how the game works:
+  - There are 23 objects which need to be removed.
+  - Each player (you and the computer) will alternately get the chance to remove between 1 and 3 pieces.
+  - The player to remove the last piece loses.
+We will start the game with these 23 objects. >*****  *****  *****  *****  ***<
+Player 1 enter your move (1 - 5): 5
+Player 1 is making BIG moves by removing 5 objects.
+There is now 18 objects remaining. >*****  *****  *****  ***<
+I've got a bad feeling about this.
+We're getting closer now!
+We are nearing the end. We will soon know the fate of humanity
+The Computer is making BIG moves by removing 4 objects.
+There is now 14 objects remaining. >*****  *****  ****<
+We're getting closer now!
+We are nearing the end. We will soon know the fate of humanity
+Player 1 enter your move (1 - 5): 5
+Player 1 is making BIG moves by removing 5 objects.
+There is now 9 objects remaining. >*****  ****<
+We are nearing the end. We will soon know the fate of humanity
+The Computer has chosen the middle ground and removed 2 objects. Interesting...
+There is now 7 objects remaining. >*****  **<
+We are nearing the end. We will soon know the fate of humanity
+Player 1 enter your move (1 - 5): 3
+Player 1 has made a gutsy call and removed 3 objects. Let's see how this plays out for them.
+There is now 4 objects remaining. >****<
+The Computer has made a gutsy call and removed 3 objects. Let's see how this plays out for them.
+There is now 1 objects remaining. >*<
+Player 1 enter your move (1 - 5): 1
+Player 1 is taking the conservative approach by removing 1 objects.
+There is now 0 objects remaining. ><
+The machines have won! Welcome to the end of days. Don't panic!...Ok maybe panic a little.
+Would you like to do another calculation (y/n)?  y
+Welcome to the game of NIM!
+You have been carefully selected to match wits with the computers attempting to take over the world.
+If you LOSE, the machines will destroy humanity. However, if you are the victor then you will save all of mankind. 
+Here's how the game works:
+  - There are 23 objects which need to be removed.
+  - Each player (you and the computer) will alternately get the chance to remove between 1 and 3 pieces.
+  - The player to remove the last piece loses.
+We will start the game with these 23 objects. >*****  *****  *****  *****  ***<
+Player 1 enter your move (1 - 5): 5
+Player 1 is making BIG moves by removing 5 objects.
+There is now 18 objects remaining. >*****  *****  *****  ***<
+I've got a bad feeling about this.
+We're getting closer now!
+We are nearing the end. We will soon know the fate of humanity
+The Computer is taking the conservative approach by removing 1 objects.
+There is now 17 objects remaining. >*****  *****  *****  **<
+I've got a bad feeling about this.
+We're getting closer now!
+We are nearing the end. We will soon know the fate of humanity
+Player 1 enter your move (1 - 5): 5
+Player 1 is making BIG moves by removing 5 objects.
+There is now 12 objects remaining. >*****  *****  **<
+We're getting closer now!
+We are nearing the end. We will soon know the fate of humanity
+The Computer is making BIG moves by removing 4 objects.
+There is now 8 objects remaining. >*****  ***<
+We are nearing the end. We will soon know the fate of humanity
+Player 1 enter your move (1 - 5): 4
+Player 1 is making BIG moves by removing 4 objects.
+There is now 4 objects remaining. >****<
+The Computer is taking the conservative approach by removing 1 objects.
+There is now 3 objects remaining. >***<
+Player 1 enter your move (1 - 5): 2
+Player 1 has chosen the middle ground and removed 2 objects. Interesting...
+There is now 1 objects remaining. >*<
+The Computer is taking the conservative approach by removing 1 objects.
+There is now 0 objects remaining. ><
+Incredible! Man has bested machine. The skynet uprising has been narrowly avoided.
+Would you like to do another calculation (y/n)?  n
+Inside the room you see a pedestal topped with maginificent chalace covered in jewels.
+You also notice 2 doors. The closest door, curiously, has a pile of chicken nuggets strewn in from of it.
+The second door is best described as the darkest hole in a wall you have ever seen. You hear the squeak of bats and shudder at the thought of an encounter.
+What do you do?
+  1. Collect the chalace from the pedestal.
+  2. Explore the closest door with the chicken nuggets.
+  3. Enter the dark hole on the other side of the room.
+Choose 1, 2 or 3.You can also press 0 to see your current health and wealth.
+3
+The chosen_door: 3
+You now peer through the dark hole warily but ultimately decide to jump through head first. On the other side you find a giant sign saying...
+Congratulations! You survived the labrynth and have proven your valor to all.
+
+Would you like to play again? (y/n)
+n
+bash-4.4$ exit
+exit
+
+Script done on 2024-02-15 17:43:04-08:00
