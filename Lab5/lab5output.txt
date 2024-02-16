@@ -1,0 +1,35 @@
+Script started on 2024-02-15 16:36:18-08:00
+bash-4.4$ pwd
+/home/linc2706/labs/lab5
+bash-4.4$ fk[K[Kg++ flip.cpp
+bash-4.4$ ./a.out
+Please enter the first number to be flipped:
+5
+Please enter the second number to be flipped:
+6
+Your first number is 5 and your second number is 6
+Flipping...
+Your new first number is 6 and your new second number is 5
+Mission Accomplished!
+bash-4.4$ ./a.out
+Please enter the first number to be flipped:
+9
+Please enter the second number to be flipped:
+1
+Your first number is 9 and your second number is 1
+Flipping...
+Your new first number is 1 and your new second number is 9
+Mission Accomplished!
+bash-4.4$ ./a.out
+Please enter the first number to be flipped:
+23456
+Please enter the second number to be flipped:
+98765
+Your first number is 23456 and your second number is 98765
+Flipping...
+Your new first number is 98765 and your new second number is 23456
+Mission Accomplished!
+bash-4.4$ exit
+exit
+
+Script done on 2024-02-15 16:37:25-08:00
