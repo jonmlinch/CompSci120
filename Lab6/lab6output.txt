@@ -1,0 +1,103 @@
+Script started on Thu Feb 22 16:40:29 2024
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[Jjonathanlinch@Jonathans-MBP Lab6 % [K[?2004hppwd[?2004l
+/Users/jonathanlinch/Desktop/ComputerScienceAssignments/CompSci120/Lab6
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[Jjonathanlinch@Jonathans-MBP Lab6 % [K[?2004hgg++ pet.p cpp[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[Jjonathanlinch@Jonathans-MBP Lab6 % [K[?2004h..a. ./a.out[?2004l
+Pet's name? (One word) Jon
+
+Your pet Jon is doing alright. Everything is just...fine.
+Happy: 50
+Also, your pet is honestly always hungry and would eat if given the chance.
+Hungry: 50
+And lastly, they feel like they could hold it forever.
+Need To Poop: 0
+What would you like to do with your pet?
+ Play (1) 
+ Feed (2) 
+ Let the Pet Out to Poop (3) 
+ Exit (0) 
+2
+
+MMM, Yummy!
+
+Your pet Jon is doing alright. Everything is just...fine.
+Happy: 50
+Also, your pet is honestly always hungry and would eat if given the chance.
+Hungry: 45
+And lastly, they feel like they could hold it forever.
+Need To Poop: 4
+What would you like to do with your pet?
+ Play (1) 
+ Feed (2) 
+ Let the Pet Out to Poop (3) 
+ Exit (0) 
+1
+What should we play?
+ Fetch (1) 
+ Roll over (2) 
+2
+
+Your pet Jon is doing alright. Everything is just...fine.
+Happy: 55
+Also, your pet is honestly always hungry and would eat if given the chance.
+Hungry: 46
+And lastly, they would mind a jaunt to the outhouse if you know what I mean.
+Need To Poop: 5
+What would you like to do with your pet?
+ Play (1) 
+ Feed (2) 
+ Let the Pet Out to Poop (3) 
+ Exit (0) 
+1
+What should we play?
+ Fetch (1) 
+ Roll over (2) 
+1
+
+Your pet Jon is doing alright. Everything is just...fine.
+Happy: 65
+Also, your pet is honestly always hungry and would eat if given the chance.
+Hungry: 51
+And lastly, they would mind a jaunt to the outhouse if you know what I mean.
+Need To Poop: 7
+What would you like to do with your pet?
+ Play (1) 
+ Feed (2) 
+ Let the Pet Out to Poop (3) 
+ Exit (0) 
+2
+
+MMM, Yummy!
+
+Your pet Jon is doing alright. Everything is just...fine.
+Happy: 65
+Also, your pet is honestly always hungry and would eat if given the chance.
+Hungry: 46
+And lastly, they need to GO! Like...now. Before there's a big ol' mess to clean up.
+Need To Poop: 11
+What would you like to do with your pet?
+ Play (1) 
+ Feed (2) 
+ Let the Pet Out to Poop (3) 
+ Exit (0) 
+3
+You let the dog out to poop and it has great success!
+
+Your pet Jon is doing alright. Everything is just...fine.
+Happy: 65
+Also, your pet is honestly always hungry and would eat if given the chance.
+Hungry: 46
+And lastly, they feel like they could hold it forever.
+Need To Poop: 0
+What would you like to do with your pet?
+ Play (1) 
+ Feed (2) 
+ Let the Pet Out to Poop (3) 
+ Exit (0) 
+0
+Well we hate to see you go!
+Press enter to exit.
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                      [0m[27m[24m[Jjonathanlinch@Jonathans-MBP Lab6 % [K[?2004heexit[?2004l
+
+Script done on Thu Feb 22 16:41:32 2024

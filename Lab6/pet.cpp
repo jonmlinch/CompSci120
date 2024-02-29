@@ -2,7 +2,7 @@
     Jonathan Linch
     Course Section #08
     02/22/24
-    Assignment 5
+    Lab 6
     All requirements should be met.
     Assigned Tasks
     - 
@@ -98,20 +98,20 @@ void pet::feed(){
 /* Member function print(), prints information about a pet. */
 void pet::print(){
     cout << "\nYour pet " << name << " is ";
-    
+
     if(happy >= 75) {
         cout << "ECSTATIC to be alive! What a day!" << endl;
     }
-    
+
     if(happy >= 25 && happy < 75) {
         cout << "doing alright. Everything is just...fine." << endl;
     }
-    
+
     if(happy < 25) {
         cout << "a mopey sack and really needs a pick me up." << endl;
     }
     cout << "Happy: " << happy << endl;
-    
+
     cout<< "Also, your pet is ";
     if(hunger >= 75) {
         cout << "STARVING!!! Feed them you negligent nincompoop." << endl;
@@ -123,9 +123,9 @@ void pet::print(){
         cout << "pretty full! If you feed them more they might explode." << endl;
     }
     cout << "Hungry: " << hunger << endl;
-    
+
     cout<<"And lastly, they ";
-    
+
     if(needToPoop >= 10) {
         cout << "need to GO! Like...now. Before there's a big ol' mess to clean up." << endl;
     }
@@ -155,10 +155,8 @@ void pet::letOut() {
     if (needToPoop < 10) {
         cout << "Things aren't ready yet!" << endl;
     }
-    
     if (needToPoop >= 10) {
         cout << "You let the dog out to poop and it has great success!" << endl;
         needToPoop = 0;
     }
-    
 }
