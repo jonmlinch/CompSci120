@@ -5,7 +5,7 @@
     Lab 7
     All requirements should be met.
     Assigned Tasks
-    - 
+    - removed the need to enter numbers one by one because it seemed unnecessary. Instead, just automated that process.
 */
 #include <iostream>
 using namespace std;
@@ -34,8 +34,8 @@ int main() {
 
 double findAverage(int userNum) {
   double calculatedAvg;
-  int num; 
-  int sum = 0;
+  double num; 
+  double sum = 0;
 
   //Find the sum of the numbers between 0 and the number entered by the user
   for (int i = 0; i < userNum; i++) {

@@ -1,0 +1,30 @@
+Script started on 2024-02-29 16:40:55-08:00
+bash-4.4$ pwd
+/home/linc2706/labs/lab7
+bash-4.4$ ls
+a.out  debugging101.cpp  lab7output.txt
+bash-4.4$ ./a.out
+This program will give you the average of all number between 0 and the number you enter.
+What's the highest number you would like to include in the average? 
+10
+The average of the numbers between 0 and 10 is:
+5.5
+
+bash-4.4$ ./a.out
+This program will give you the average of all number between 0 and the number you enter.
+What's the highest number you would like to include in the average? 
+7
+The average of the numbers between 0 and 7 is:
+4
+
+bash-4.4$ ./a.out
+This program will give you the average of all number between 0 and the number you enter.
+What's the highest number you would like to include in the average? 
+100
+The average of the numbers between 0 and 100 is:
+50.5
+
+bash-4.4$ exit
+exit
+
+Script done on 2024-02-29 16:41:47-08:00

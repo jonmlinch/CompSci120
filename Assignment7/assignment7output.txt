@@ -1,0 +1,112 @@
+Script started on 2024-02-29 16:47:37-08:00
+bash-4.4$ pwd
+/home/linc2706/assignments/assignment7
+bash-4.4$ ls
+a.out  assignment7output.txt  fractions.cpp
+bash-4.4$ ./a.out
+Enter a numerator: 7
+Enter a denominator: 5
+The improper value of your fraction is: 7/5
+The mixed number value for your fraction is: 1 2/5
+The decimal value for your fraction is: 1.4
+Now let's create another fraction!
+Enter a numerator: 6
+Enter a denominator: 7
+The improper value of your fraction is: 6/7
+The mixed number value for your fraction is: 0 6/7
+The decimal value for your fraction is: 0.857143
+Now that we have two fractions, let's do some math! 
+
+When we ADD your fractions we get the following breakdown --> 
+
+The improper value of your fraction is: 79/35
+The mixed number value for your fraction is: 2 9/35
+The decimal value for your fraction is: 2.25714
+When we SUBTRACT your fractions we get the following breakdown --> 
+
+The improper value of your fraction is: 19/35
+The mixed number value for your fraction is: 0 19/35
+The decimal value for your fraction is: 0.542857
+When we MULTIPLY your fractions we get the following breakdown --> 
+
+The improper value of your fraction is: 42/35
+The mixed number value for your fraction is: 1 7/35
+The decimal value for your fraction is: 1.2
+When we DIVIDE your fractions we get the following breakdown --> 
+
+The improper value of your fraction is: 49/30
+The mixed number value for your fraction is: 1 19/30
+The decimal value for your fraction is: 1.63333
+Would you like to do more math on fractions? (1 for yes, 0 for no): 1
+Enter a numerator: 19
+Enter a denominator: 3
+The improper value of your fraction is: 19/3
+The mixed number value for your fraction is: 6 1/3
+The decimal value for your fraction is: 6.33333
+Now let's create another fraction!
+Enter a numerator: 5
+Enter a denominator: 4
+The improper value of your fraction is: 5/4
+The mixed number value for your fraction is: 1 1/4
+The decimal value for your fraction is: 1.25
+Now that we have two fractions, let's do some math! 
+
+When we ADD your fractions we get the following breakdown --> 
+
+The improper value of your fraction is: 91/12
+The mixed number value for your fraction is: 7 7/12
+The decimal value for your fraction is: 7.58333
+When we SUBTRACT your fractions we get the following breakdown --> 
+
+The improper value of your fraction is: 61/12
+The mixed number value for your fraction is: 5 1/12
+The decimal value for your fraction is: 5.08333
+When we MULTIPLY your fractions we get the following breakdown --> 
+
+The improper value of your fraction is: 95/12
+The mixed number value for your fraction is: 7 11/12
+The decimal value for your fraction is: 7.91667
+When we DIVIDE your fractions we get the following breakdown --> 
+
+The improper value of your fraction is: 76/15
+The mixed number value for your fraction is: 5 1/15
+The decimal value for your fraction is: 5.06667
+Would you like to do more math on fractions? (1 for yes, 0 for no): 1
+Enter a numerator: 1
+Enter a denominator: 0
+The improper value of your fraction is: 0/1
+The mixed number value for your fraction is: 0 0/1
+The decimal value for your fraction is: 0
+Now let's create another fraction!
+Enter a numerator: 5
+Enter a denominator: 3 7
+The improper value of your fraction is: 5/7
+The mixed number value for your fraction is: 0 5/7
+The decimal value for your fraction is: 0.714286
+Now that we have two fractions, let's do some math! 
+
+When we ADD your fractions we get the following breakdown --> 
+
+The improper value of your fraction is: 5/7
+The mixed number value for your fraction is: 0 5/7
+The decimal value for your fraction is: 0.714286
+When we SUBTRACT your fractions we get the following breakdown --> 
+
+The improper value of your fraction is: -5/7
+The mixed number value for your fraction is: 0 -5/7
+The decimal value for your fraction is: -0.714286
+When we MULTIPLY your fractions we get the following breakdown --> 
+
+The improper value of your fraction is: 0/7
+The mixed number value for your fraction is: 0 0/7
+The decimal value for your fraction is: 0
+When we DIVIDE your fractions we get the following breakdown --> 
+
+The improper value of your fraction is: 0/5
+The mixed number value for your fraction is: 0 0/5
+The decimal value for your fraction is: 0
+Would you like to do more math on fractions? (1 for yes, 0 for no): 0
+See you next time!bash-4.4$ exit
+exit
+
+Script done on 2024-02-29 16:49:19-08:00
