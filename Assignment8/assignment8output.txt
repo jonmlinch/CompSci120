@@ -1,0 +1,26 @@
+Script started on 2024-03-07 17:38:44-08:00
+bash-4.4$ pwd [K
+/home/linc2706/assignments/assignment8
+bash-4.4$ ls
+a.out  assignment8output.txt  workingWithArrays.cpp
+bash-4.4$ g++ working [KWithArrays.cpp 
+bash-4.4$ ./a.out
+Generated array: 
+[ 3.40188, -1.05617, 2.83099, 2.9844, 4.11647, 
+-3.02449, -1.64777, 2.6823, -2.22225, 0.5397 ]
+Average: 0.860506
+Minimum: -3.02449
+Maximum: 4.11647
+Enter a value to add to the array: 5.1
+Array with 5.1 added: [ 8.50188, 4.04383, 7.93099, 8.0844, 9.21647, 
+2.07551, 3.45223, 7.7823, 2.87775, 5.6397 ]
+Number of values less than average: 5
+Number of values greater than average: 5
+Enter a value to check for value less than: 8
+Number of values less than 8: 7
+Range: 7.14096
+Standard Deviation: 2.51867
+bash-4.4$ exit
+exit
+
+Script done on 2024-03-07 17:40:14-08:00
