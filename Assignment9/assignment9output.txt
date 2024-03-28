@@ -1,0 +1,135 @@
+Script started on Wed Mar 27 21:08:56 2024
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jjonathanlinch@Jonathans-MBP Assignment9 % [K[?2004hgg++ Chapter6BoardGame.cpp[1m [0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jjonathanlinch@Jonathans-MBP Assignment9 % [K[?2004h../a.out[?2004l
+Welcome to the Talladega 20. A short 20 space race full of high octane action. To play the game, you will be racing a companion across 20 spaces to reach the finish line. Each time you hit Enter on your turn you will move ahead a randomly selected number of space. If you happen to land on the symbolic spaces you will gain (or possibly lose) bonus space. The game starts...NOW! 
+
+
+1        ^  *  ^  %  ?     ^        ^  ^           ^  ^    Goal Health: 10
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+2        ^  *  ^  %  ?     ^        ^  ^           ^  ^    Goal Health: 10
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+
+
+
+Player 1 type enter to roll. 
+
+Player 1 rolled a 2.
+
+      1  ^  *  ^  %  ?     ^        ^  ^           ^  ^    Goal Health: 10
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+2        ^  *  ^  %  ?     ^        ^  ^           ^  ^    Goal Health: 10
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+
+
+
+Player 2 type enter to roll. 
+
+Player 2 rolled a 5.
+ Oh no! A bird hit the windshield. -5 health
+      1  ^  *  ^  %  ?     ^        ^  ^           ^  ^    Goal Health: 10
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+          ^  * 2  %  ?     ^        ^  ^           ^  ^    Goal Health: 5
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+
+
+
+Player 1 type enter to roll. 
+
+Player 1 rolled a 2.
+ You use you drafting skills to gain an extra space.
+          ^  * 1  %  ?     ^        ^  ^           ^  ^    Goal Health: 5
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+          ^  * 2  %  ?     ^        ^  ^           ^  ^    Goal Health: 5
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+
+
+
+Player 2 type enter to roll. 
+
+Player 2 rolled a 4.
+ The pit crew tosses you a granola bar. +1 health
+          ^  * 1  %  ?     ^        ^  ^           ^  ^    Goal Health: 5
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+          ^  *  ^  %  ?    2        ^  ^           ^  ^    Goal Health: 6
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+
+
+
+Player 1 type enter to roll. 
+
+Player 1 rolled a 5.
+
+          ^  *  ^  %  ?     ^ 1     ^  ^           ^  ^    Goal Health: 5
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+          ^  *  ^  %  ?    2        ^  ^           ^  ^    Goal Health: 6
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+
+
+
+Player 2 type enter to roll. 
+
+Player 2 rolled a 3.
+ You snatch a brat from an unsuspecting fan. +3 health
+          ^  *  ^  %  ?     ^ 1     ^  ^           ^  ^    Goal Health: 5
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+          ^  *  ^  %  ?     ^       2  ^           ^  ^    Goal Health: 9
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+
+
+
+Player 1 type enter to roll. 
+
+Player 1 rolled a 3.
+ A flat tire rattles you around. -4 health
+          ^  *  ^  %  ?     ^        ^ 1           ^  ^    Goal Health: 1
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+          ^  *  ^  %  ?     ^       2  ^           ^  ^    Goal Health: 9
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+
+
+
+Player 2 type enter to roll. 
+
+Player 2 rolled a 5.
+ Drinking water while driving is hard but worth it. +2 health
+          ^  *  ^  %  ?     ^        ^ 1           ^  ^    Goal Health: 1
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+          ^  *  ^  %  ?     ^        ^  ^          2  ^    Goal Health: 10
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+
+
+
+Player 1 type enter to roll. 
+
+Player 1 rolled a 4.
+ Drinking water while driving is hard but worth it. +2 health
+          ^  *  ^  %  ?     ^        ^  ^          1  ^    Goal Health: 3
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+          ^  *  ^  %  ?     ^        ^  ^          2  ^    Goal Health: 10
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+
+
+
+Player 2 type enter to roll. 
+
+Player 2 rolled a 4.
+
+          ^  *  ^  %  ?     ^        ^  ^          1  ^    Goal Health: 3
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+          ^  *  ^  %  ?     ^        ^  ^           ^  ^ 2 Goal Health: 10
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+
+
+
+Player 1 type enter to roll. 
+
+Player 1 rolled a 2.
+
+          ^  *  ^  %  ?     ^        ^  ^           ^  ^ 1 Goal Health: 3
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+          ^  *  ^  %  ?     ^        ^  ^           ^  ^ 2 Goal Health: 10
+--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+
+Player 2 Wins!!
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                 [0m[27m[24m[Jjonathanlinch@Jonathans-MBP Assignment9 % [K[?2004h
