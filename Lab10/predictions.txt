@@ -1,0 +1,11 @@
+Predicted Array Values
+99, 3, 4, 5, 44, 6, 
+77, 5, 7, 9, 10, 12, 
+55, 66, 10, 13, 15, 18,
+
+Actual Array Values
+99, 3, 4, 5, 44, 6, 
+77, 5, 7, 9, 10, 12, 
+55, 66, 10, 13, 15, 18,
+
+I was able to follow the program well and included my comments in the code that I used to step through and find the correct array values

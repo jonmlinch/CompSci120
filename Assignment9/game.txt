@@ -1,0 +1,10 @@
+3 0 ^ -1 Dirt is in your eye. -1 health
+4 +1 * 0 You use you drafting skills to gain an extra space.
+5 0 ^ -5 Oh no! A bird hit the windshield. -5 health
+6 +3 % 0 You kicked up the nitrous an cruise ahead and extra 3 spaces.
+7 -2 ? 0 You've blown a tire and must go back 2 spaces to get a new one.
+9 0 ^ +1 The pit crew tosses you a granola bar. +1 health
+12 0 ^ +3 You snatch a brat from an unsuspecting fan. +3 health
+13 0 ^ -4 A flat tire rattles you around. -4 health
+17 0 ^ +2 Drinking water while driving is hard but worth it. +2 health
+18 0 ^ -3 Fire Ants in the cabin! -3 health
