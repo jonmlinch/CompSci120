@@ -1,0 +1,17 @@
+1. What is the base case in the factorial function? Write the line or lines of code that you think compose the base case.
+Answer: Line 15 is the base case
+
+2. How many times will the factorial function be called when the argument n is 5? 
+Answer: It will run 5 times.
+
+3. What do you think would happen if you changed the predicate in the if statement inside the factorial function to (n <= 2)? Explain your answer. 
+Answer: If the base case was changed to look for (n <= 2), the main change would be that the function would run one less time. It'll run 4 times.
+This is because the base case will be hit before we can call factorial(2-1). Additionally, if the return value of 1 is left the same then the returned 
+answer would be 60 instead of 120. With (n<=1) we get an answer equivalent to (5 * 4 * 3 * 2 * 1 = 120). But with (n<=2), we get (5 * 4 * 3 * 1 = 60). 
+However, if we change the return value to return 2 instead of 1, we would actually get the same answer as (n <= 1)  becasue it would play out like this:
+(5 * 4 * 3 * 2 = 120)
+
+4.What do you think would happen if you swapped the operands to the multiplication operator (the * symbol) inside the factorial function? Explain your answer. 
+Answer: If we swapped the operands to the factorial return statement was n - factorial(n*1), the factorial would run indefinitely or until the program crashed.
+This would happen because we are never passing a lower n value into the factorial function so we would never hit the base case unless we started with factorial(1).
+However, if factorial(1) was called then no recursion would occur and we would just get 1 returned since we never make it past the base case.
